@@ -43,16 +43,16 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		"pwd 89 211" \
 		"mailcount 9 255" \
 		"now_playing 234 37" \
-		#"cpu 240 136" \
-		"load 237 167" \
-		#"tmux_mem_cpu_load 234 136" \
-		"battery 137 127" \
+		#"cpu 240 249" \
+		"load 237 249" \
+		#"tmux_mem_cpu_load 234 249" \
+		#"battery 137 127" \
 		"weather 37 255" \
 		#"rainbarf 0 0" \
 		#"xkb_layout 125 117" \
-		"date_day 235 136" \
-		"date 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
-		"time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
-		#"utc_time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
+		"date_day 235 249" \
+		"date 235 249 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
+		"time 235 249 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
+		#"utc_time 235 249 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 	)
 fi
